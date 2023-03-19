@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros passo com DOM
+    </h1>
+    <p name="para" >Aprendo <strong>DOM</strong> em JavaScript</p>
+    <div id="aqui">Click Aqui</div>
+    <script>
+        let tit = window.document.getElementsByTagName("h1")[0]
+        var d = window.document.body
+        var p1 = window.document.getElementsByTagName("p")[0]
+        window.document.write("esse e o resultado " + p1.innerHTML)
+        d.style.backgroundColor = 'BLUE'
+        tit.style.background= "black"
+        window.document.getElementsByClassName('para')[0] 
+        
+    
+    </script>
+    
+    
+</body>
+</html>
