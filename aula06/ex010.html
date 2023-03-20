@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body{ 
+            background-color: aliceblue;
+            text-align: center;
+        }
+        .sist{
+            width: 200px;
+            margin: auto;
+            line-height: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Sistemas de Multa</h1>
+    <div class="sist">
+        <label for="itxtvel">Velocidade do Carro</label>
+        <input type="number" name="txtvel" id="itxtvel" placeholder="Informe a velocidade:" >
+        <div id="rest">
+            resultado
+        </div>
+        <input type="button" value="Verificar" onclick="verificar()">
+    </div> 
+    <script>
+      function verificar(){
+         var vel = window.document.getElementById("itxtvel")
+         var rest = window.document.
+         querySelector('div#rest')
+         var vel1 = Number(vel.value)
+         if(vel1 >= 100){
+            rest.innerHTML = 'Vc esta fora do limite de velocidade, Resultado multa de 1000 reais'
+
+            rest.innerHTML += ' <p>Voce pode pagar sua no correio mais proximo</p>'
+
+        }else{
+            rest.innerText = 'Tudo em orden, Dirija com cuidado'
+        }
+         
+        
+         
+
+    }
+    </script>
+
+    
+</body>
+</html>
