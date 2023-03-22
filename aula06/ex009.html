@@ -31,8 +31,13 @@
         function testar(){
             var inf = window.document.getElementById('inasc')
             var rest = window.document.getElementsByTagName('div')[0]
-            
+            if( inf =='BRASIL' ){
+                rest.innerHTML = 'Voce E BRASILEIRO'
+            }else{
+                rest.innerHTML = 'Voce e Extrangeiro'
+            }
         }
+        
 
     </script>
     
