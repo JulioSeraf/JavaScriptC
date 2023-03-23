@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+            <fieldset>
+                <legend>Informaçoes</legend>
+                <label for="idade">Ano de Nacimento</label>
+                <input type="number" name="dade" id="idade" placeholder="selecione o ano">
+                <br>
+                <label id="isexo" for="sexo">Sexo:</label>
+                <label for="imasc">Masculino</label>
+                <input type="radio" name="sexo" id="imasc" >
+                <label for="ifem">Femenino</label>
+                <input type="radio" name="sexo" id="ifem">
+                <br>
+                <input type="submit" value="Verificar" onclick="verificar()">
+            </fieldset>
+        
+        <div id="res"> resultado</div>
+        <div>
+            <img src="#" alt="imagens relacionadas a idade">
+        </div>
+    </main>
+    <footer>
+        <p>Site criado por Julio Serafim. Aulo de curso em Video</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
