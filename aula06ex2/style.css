@@ -7,11 +7,15 @@ body{
 }
 main{
     width: 600px;
-    height: 400px;
+    height: 500px;
     margin: auto;
     box-shadow: 2px 5px 10px black;
     padding: 10px;
 }
-main form{
-    line-height: 30px;
+img{
+    margin-top: 15px;
+    width:60%;
+    height:300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
 }
