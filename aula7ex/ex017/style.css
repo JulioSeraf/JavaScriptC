@@ -5,19 +5,22 @@ body{
     text-align: center;
     color: aliceblue;
 }
-section{ 
-    color: black;
+section{
     background-color: white;
-    width: 50%;
-    height: 300px;
+    color: black;
+    width:50%;
     margin: auto;
-    border-radius: 10px;
-    box-shadow:0 0 10px;
     padding: 10px;
-
+    border-radius: 20px;
+    box-shadow:  0 0 10px black;
 }
+
 input{
     width: 30%;
     display: block;
     margin: 10px auto;
+}
+#ires{
+    width: 30%;
+
 }

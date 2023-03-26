@@ -12,16 +12,16 @@
         <h1>Tabuada online</h1>
     </header>
     <section>
-        <select name="tab" id="itab"> Digite um numero:</select>
-        <input type="submit" value="Criar Tabuada" >
-        <div>
-
-        </div>
-
+        <label for="inum">Digite um Numero:</label>
+        <input type="number" name="num" id="inum">
+        <input type="submit" value="Criar Tabuada" onclick="calcular()">
+        <select name="res" id="ires" size="10">
+        </select>
     </section>
     <footer>
         <p>Criado por Julio Serafim. Aulno de Curso em Video.</p>
     </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>

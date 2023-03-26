@@ -25,7 +25,7 @@ if (fi == 0 && ini == 0){
 
     }else if(ini > fi) {
         //contagem Regressiva
-        for(con = ini; con > fi; con = con - pass){
+        for( var con = ini; con > fi; con = con - pass){
         res.innerHTML += `${con} \u{1f449}`
         }
     }  
