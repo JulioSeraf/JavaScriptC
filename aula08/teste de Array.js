@@ -13,4 +13,10 @@ for(con in local){
     console.log( `A posiçao ${con} tem o Valor ${local[con]}`)
     
 }
-console.log(`O valor 91 esta na posicao ${local.indexOf(4)} do array`)
+var valo = 8
+var pos = local.indexOf(valo)
+if(pos == -1){
+    console.log(`O valor ${valo} nao foi encontrado`)
+}else{
+    console.log(`O valor ${valo} esta na posicao ${pos} do array`)
+}
